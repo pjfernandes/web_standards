@@ -10,6 +10,11 @@
       padding: 0;
     }
 
+    body {
+      width: 70%;
+      margin: auto;
+    }
+
     .job {
       margin: 8px;
       width: 30%;
@@ -18,11 +23,80 @@
     }
 
     header, footer {
-      width: 100vw;
+      width: 100%;
       padding: 20px;
       clear: both;
+      border-top: solid 2px #cccccc;
+      border-bottom: solid 2px #cccccc;
+      color: darkgray;
+      text-align: center;
+      font-size: 22px;cursor: pointer;
     }
 
+
+
+    li {
+      list-style: none;
+      padding-top: 10px;
+    }
+
+    .destaque-vermelho {
+      font-weight: bolder;
+      color: red;
+      font-size: 14px;
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+
+    .job {
+      text-align: center;
+      border: solid 1px black;
+      border-radius: 4px;
+      float: left;
+      margin: 4px;
+    }
+
+    footer {
+      font-size: 12px;
+    }
+
+    h1 {
+      font-size: 17px;
+    }
+
+    a {
+      text-decoration: none;
+      color: rgb(181, 27, 27);
+    }
+
+    a:hover {
+      color: red;
+    }
+
+    nav > h3 {
+      font-size: 17px;
+      margin-top: 10px;
+    }
+
+    nav p {
+      font-size: 12px;
+      text-align: justify;
+    }
+
+    main  {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    main h3 {
+      padding-top: 20px;
+    }
+
+    .job:hover {
+      border: solid 1px orange;
+    }
+
+  @media only screen and (min-width: 1200px) {
     aside {
       padding: 18px;
       float: left;
@@ -32,23 +106,9 @@
     main {
       float: left;
       width: 75%;
-    }
-
-    li {
-      list-style: none;
-    }
-
-    .destaque-vermelho {
-      font-weight: bolder;
-      color: red;
-    }
-
-    .job {
       text-align: center;
-      border: solid 1px black;
-      border-radius: 4px;
     }
-
+  }
   </style>
   <title>Document</title>
 </head>
@@ -58,7 +118,7 @@
 
   <aside id="menu_lateral">
     <div class="foto"></div>
-    <h1>Pedro José Farias Fernandes</h1>
+    <h1>Pedro José F. Fernandes</h1>
     <nav>
       <ul>
         <li><a href="#">GitHub</a></li>
